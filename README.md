@@ -2,7 +2,7 @@
 
 A few sample scenes exercising the different aspects of SpriteKit game dev in Swift.
 
-**learning_spritekit** - simple example app to exercise SpriteKit, with some scenes:
+**LearningSpriteKit** - simple example app to exercise SpriteKit, with some scenes:
 
 * __GameScene__ - basic sprite motion and touch handling
 * __GameScene2__ - fancy actions
