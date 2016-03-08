@@ -21,7 +21,7 @@ class GameViewController: UIViewController {
         
         let w = frame.width //* scale
         let h = frame.height //* scale
-        let scene = GameScene5(size: CGSize(width: w, height: h))
+        let scene = GameScene(size: CGSize(width: w, height: h))
         
         // Configure the view.
         let skView = self.view as SKView
