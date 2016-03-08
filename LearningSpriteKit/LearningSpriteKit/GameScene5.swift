@@ -16,7 +16,7 @@ class GameScene5: SKScene {
     let hit = SKAction.playSoundFileNamed("hit.caf", waitForCompletion: false)
     let miss = SKAction.playSoundFileNamed("miss.caf", waitForCompletion: false)
     
-    var anim:SKAction = SKAction.fadeAlphaTo(1.0, duration: 1.0)
+    var anim = SKAction()
     var alienDir = 1
 
     override func didMoveToView(view: SKView) {
