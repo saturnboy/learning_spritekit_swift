@@ -19,8 +19,8 @@ class GameViewController: UIViewController {
         println("appFrame: \(frame)")
         println("scale: \(scale)")
         
-        let w = frame.width * scale
-        let h = frame.height * scale
+        let w = frame.width //* scale
+        let h = frame.height //* scale
         let scene = GameScene5(size: CGSize(width: w, height: h))
         
         // Configure the view.
